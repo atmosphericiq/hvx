@@ -15,7 +15,7 @@ class MetalPipelineTransmissionSegmentTestCase(unittest.TestCase):
   # 100m long, 0.5m outer diameter and 0.01m wall thickness
   def test_total_resistance(self):
     mp = MetalPipelineTransmissionSegment(100, 0.5, 0.01, 'CARBON_STEEL')
-    self.assertAlmostEqual(mp._get_total_resistance_of_pipe(), 0.0009289451780465725, places=4)
+    self.assertAlmostEqual(mp._get_total_resistance_of_pipe(), 0.000928, places=4)
 
   # 100m long, 0.5m outer diameter and 0.01m wall thickness
   def test_surface_area(self):
