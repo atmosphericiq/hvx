@@ -1,2 +1,3 @@
-from MetalPipelineTransmissionSegment import MetalPipelineTransmissionSegment
-from PipelineNetwork import PipelineNetwork
+from hvx.MetalPipelineTransmissionSegment import MetalPipelineTransmissionSegment
+from hvx.PipelineNetwork import PipelineNetwork
+from hvx.TransmissionLine import TransmissionLine

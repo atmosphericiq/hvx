@@ -4,7 +4,7 @@ from PySpice.Spice.Netlist import Circuit, SubCircuit
 from PySpice.Unit import *
 from PySpice.Logging.Logging import setup_logging
 from PySpice.Probe.Plot import plot
-from MetalPipelineTransmissionSegment import MetalPipelineTransmissionSegment
+from hvx.MetalPipelineTransmissionSegment import MetalPipelineTransmissionSegment
 
 class PipelineNetwork:
 
@@ -21,12 +21,15 @@ class PipelineNetwork:
   def add_dc_source(self, name, positive_node, negative_node, voltage):
     self.circuit.V(name, positive_node, negative_node, voltage)
 
-  def add_weld_to_weld(self, pipe_od_m, pipe_wallthickness_m, coating_rho, coating_thickness):
+  def add_weld_to_weld(self, pipe_od_m, pipe_wallthickness_m, 
+    coating_rho, coating_thickness):
+
     if not self.circuit.has_node('n0'):
       raise Exception('No init node found in the circuit')
 
     length = 10 
-    segment = MetalPipelineTransmissionSegment(length, pipe_od_m, pipe_wallthickness_m, self.substrate)
+    segment = MetalPipelineTransmissionSegment(length, pipe_od_m, 
+      pipe_wallthickness_m, self.substrate)
     segment.set_coating(coating_rho, coating_thickness)
     tl_id = 'tl' + str(self._x_iter)
     circuit.subcircuit(segment.get_transmission_line(tl_id))

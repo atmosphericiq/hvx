@@ -1,6 +1,6 @@
 import unittest
 import math
-from hvx.MetalPipelineTransmissionSegment import MetalPipelineTransmissionSegment
+from hvx import MetalPipelineTransmissionSegment
 
 class MetalPipelineTransmissionSegmentTestCase(unittest.TestCase):
 
