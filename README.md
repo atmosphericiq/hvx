@@ -53,7 +53,9 @@ The HVX project depends on the [GIS Toolkit](https://github.com/atmosphericiq/gi
 
 ## 🤝 Contributing
 
-Join our vibrant community of contributors and help further enhance HVX! Fork, clone, and start your journey by contributing through pull requests. We value collaboration, creativity, and, above all, a spirit of growth.
+HVX is mostly maintained by me, [haydenth](https://github.com/haydenth), and we're on the lookout for more contributors who are willing to help.
+
+If you have an idea or find a bug, feel free to fork the project, make your changes, and submit a pull request. We appreciate any contributions, large or small, and believe they all help our community grow.
 
 ## 🎫 License
 
