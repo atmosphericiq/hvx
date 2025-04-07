@@ -11,6 +11,31 @@ Welcome to HVX, the cutting-edge open-source library revolutionizing high-voltag
 - **Effortless Parallel Processing**: Boost performance using advanced parallel computation techniques.
 - **Complete Testing Suite**: Ensure code reliability with extensive unit tests.
 
+# Project Roadmap
+
+The project is currently in the early stages of development, focusing on geospatial processing and electrical simulation using Python. This section outlines the expected progression of the project throughout 2025.
+
+## Current State
+
+- **Focus on Fields.py**: The existing project revolves around geospatial analysis and processing lines with specific interest in voltage distribution and magnetic fields.
+- Utilizes core Python libraries such as `numpy`, `osgeo.ogr`, and `PySpice`.
+- Includes fundamental components for geospatial data manipulation and electrical simulation with components like `MetalPipelineTransmissionSegment` and `PipelineNetwork`.
+
+## Future Direction
+
+As we progress through 2025, the project will expand towards a more comprehensive simulation using SPICE (Simulation Program with Integrated Circuit Emphasis):
+
+- **Q2 2025**: Begin Integrating More Complex SPICE Components
+  - Develop advanced simulation components using `PySpice`.
+  - Enhance transmission line models with more detailed attributes and configurations.
+  - Incorporate varying substrates and coatings with specific physical properties.
+
+- **Q3 2025**: Expand the Mathematical Framework
+  - Refine the mathematical models associated with geospatial and electrical properties.
+  - Broaden the testing framework to ensure accuracy and reliability.
+  - Integrate additional geospatial layers with different types of data (e.g., resistivity, soil type).
+
+
 ## 🎉 Usage
 
 ### Getting Started in Seconds
