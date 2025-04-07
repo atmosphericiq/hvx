@@ -1,0 +1,5 @@
+awscli==1.34.28
+pyyaml==6.0.2
+wx_logs
+matplotlib
+scikit-learn

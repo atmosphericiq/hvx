@@ -1,0 +1,21 @@
+# .goosehints
+## General Usage
+- For numerical calculations and geometry: Rely on `numpy` and `osgeo.ogr`.
+- Leverage `PySpice` for simulating electrical circuits related to high-voltage AC systems.
+
+## Functional Highlights
+- Geospatial Processing: Use functions and classes like `split_line_at_length_np`, `LineDissolver`.
+- Simulation Components: Understand and utilize classes like `TransmissionLine` and `MetalPipelineTransmissionSegment`.
+- Address geometric processing via classes `Grid` and `VectorLayer`.
+
+## Development and Testing
+- Testing: Ensure tests in `PipelineNetworkTest` and `MetalPipelineTransmissionSegmentTestCase` align with new feature developments.
+- Configuration: Maintain and update package dependencies in `setup.py`.
+
+## Coding Conventions
+- Follow OGR Geometric data structuring with MultiLineString and LineString geometries.
+- Use unit tests to validate geometric and simulation functions.
+
+## Important Notes
+- Confirm the use of appropriate EPSG codes (3857, 4326) for geographic calculations.
+- Handle spatial filters with care to ensure accuracy in data retrieval and processing.

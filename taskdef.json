@@ -1,0 +1,19 @@
+{
+  "jobDefinitionName": "hv-loader",
+  "type": "container",
+  "parameters": {},
+  "containerProperties": {
+    "image": "384504264639.dkr.ecr.us-east-1.amazonaws.com/hv-loader",
+    "vcpus": 16,
+    "memory": 64000,
+    "command": [],
+    "jobRoleArn": "arn:aws:iam::384504264639:role/ecsExecutionRole",
+    "volumes": [],
+    "environment": [],
+    "mountPoints": [],
+    "ulimits": [],
+    "resourceRequirements": []
+  },
+  "tags": {},
+  "platformCapabilities": []
+}

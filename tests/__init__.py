@@ -1,2 +1,2 @@
-from tests.MetalPipelineTransmissionSegmentTestCase import MetalPipelineTransmissionSegmentTestCase
-from tests.PipelineNetworkTest import PipelineNetworkTest
+from tests.MetalPipelineTransmissionSegment_test import MetalPipelineTransmissionSegmentTestCase
+from tests.PipelineNetwork_test import PipelineNetworkTest
