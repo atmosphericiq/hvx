@@ -6,6 +6,7 @@ Welcome to HVX, the cutting-edge open-source library revolutionizing high-voltag
 
 - **Advanced Line Processing**: Master spatial data with innovative line segmentation and vector handling.
 - **High-Voltage Simulations**: Employ comprehensive simulation tools built on `PySpice`.
+- **GIS Toolkit Integration**: Leverages the [GIS Toolkit](https://github.com/atmosphericiq/gis-toolkit) for powerful geospatial data processing capabilities.
 - **Open GIS Integration**: Seamlessly integrates with `osgeo`'s powerful OGR and OSR libraries.
 - **Effortless Parallel Processing**: Boost performance using advanced parallel computation techniques.
 - **Complete Testing Suite**: Ensure code reliability with extensive unit tests.
@@ -47,6 +48,8 @@ Run the HVX library from within a Docker container for isolation and consistent 
 ## 🔧 Installation
 
 Ensure that Docker is installed on your system to leverage the capabilities of the containerized environment efficiently.
+
+The HVX project depends on the [GIS Toolkit](https://github.com/atmosphericiq/gis-toolkit), which enhances the geospatial data processing capabilities essential for advanced simulations and accurate spatial analysis.
 
 ## 🤝 Contributing
 
